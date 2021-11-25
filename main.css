@@ -1,0 +1,169 @@
+:root{
+
+	--vermelho: #E50914; 
+	--preta: #141414; 
+}
+
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+/*elementos do corpo do site*/
+body{
+
+	background: var(--preta);
+	font-family: p5hatty;
+	color: white;
+
+}
+
+h3{
+
+	color:red;
+	font-family: p5hatty;
+	
+}
+
+p{
+
+	color:white;
+	font-family: p5hatty ;
+	
+}
+
+header .container{
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+header .logo{
+
+	margin-left: 5px;
+	color: var(--vermelho);
+	font-family: Anton ;
+	font-size: 40px;
+
+}
+
+header nav a{
+
+	text-decoration: none;
+	color: #AAA;
+	margin-right: 10px;
+
+}
+
+header nav a:hover{
+
+	color: #fff;
+
+}
+
+/*main-persona*/
+.main-persona{
+
+	font-size: 16px;
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/p5_royal_2.jpg');
+	height: 600px;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start; 
+
+}
+
+.main-persona .description{
+
+	margin-bottom: 10px;
+	margin-bottom: 40px;
+	color: #E50914;
+	text-shadow: #E50914;
+
+}
+
+.title{
+
+	margin-top: 15%;
+	font-size: 40px;
+	
+}
+
+.button{
+
+	background-color: rgba(0, 0, 0, .50) ;
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	margin-right: 15px;
+	font-size: 12px;
+	cursor: pointer;
+	transition: .3s ease all;
+	margin-left: 20px;
+
+}
+
+.button:hover{
+
+	background-color: white;
+	color: black;
+
+}
+
+.button i{
+
+	margin-right: 8px;
+
+}
+
+.container{
+
+	margin-left: 20px;
+
+}
+
+.main-persona .container{
+
+	width: 70%;
+
+}
+
+.box-persona{
+
+	height: 100%;
+	width: 100%;
+	display: block;
+
+}
+
+.persona-carousel{
+
+	margin-top: 5px;
+}
+
+.item{
+
+    size: 400px;
+	width: 600px;
+
+}
+
+h3{
+
+	font-size: 50px;
+
+}
+
+.logo{
+
+	font-family: p5hatty;
+
+}
